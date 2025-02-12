@@ -60,7 +60,16 @@ IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912
 
  selectedPlayer为2时打开详情页后自动选择音频播放器。
  
- 酷我音乐搜索方法：
+type=0：苹果CMS影视对应的XML格式
+type=1：苹果CMS影视对应的JSON格式
+type=2：tvbox对应的xpath规则
+type=3：xbiu规则（在剧集获取时，部分站点可能会获取失败。建议使用soup规则）
+type=4：xbiubiu规则
+type=5：js爬虫脚本（对技术要求稍高）
+type=6：soup规则（推荐）
+
+
+酷我音乐搜索方法：
  
  1：直接输入歌曲名称（例如：爱在西元前）
  
